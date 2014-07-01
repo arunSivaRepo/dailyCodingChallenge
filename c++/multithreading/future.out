@@ -1,0 +1,10 @@
+In main, created future -- 1
+In getNum1
+In main, future value -- 1 = 30
+In main, created future -- 2 
+In getNum1
+In main, future value -- 1 = 30In main, future value --2 = 40
+In main, created future -- 3 
+In getNum1
+In main, future value -- 1 = 30In main, future value --2 = 40In main, future value --3 = 50
+Done
