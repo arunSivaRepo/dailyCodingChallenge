@@ -24,8 +24,8 @@ void recurse(int arr[], int rem, string s) {
 }
 
 int main() {
-  int arr[] = {1,1,2};
+  int arr[] = {1,1,2,3,1};
   string s;
-  recurse(arr,3,s);
+  recurse(arr,sizeof(arr)/sizeof(int),s);
   return 0;
 }
