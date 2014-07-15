@@ -21,8 +21,8 @@ int getSecondLargest(const vector<int> &a){
 // Given a number, find the just greater number than the given number containing the same digits as the given number. Write code for this.
 int findGreater(int num)
 {
-  int ret =0, n = num;
-  vector<int> vec;
+  int ret =0;
+  vector<int> vec, vec2;
   while(num){
     vec.push_back(num%10);
     num /= 10;
@@ -38,12 +38,10 @@ int findGreater(int num)
       }
     }
   }
-  return n;
+  return ret;
 }
 
 int main() {
-  cout << findGreater(332)<<"\n";
-
   cout << findGreater(576823)<<"\n";
   cout << findGreater(7120986)<<"\n";
   cout << findGreater(38276)<<"\n";
