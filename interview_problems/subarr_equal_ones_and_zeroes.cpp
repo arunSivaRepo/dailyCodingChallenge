@@ -41,7 +41,7 @@ int main() {
 
   vector<int> a = {0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0};
   vector<int> b = {0, 1, 1, 1, 0};
-  vector<int> c = {1, 0}; // special case -- doesnt work.
+  vector<int> c = {1, 0};
   vector<int> d = {0, 0, 1};
   vector<int> e = {0};
   vector<int> f = {0, 0};
