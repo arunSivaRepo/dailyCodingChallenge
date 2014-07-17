@@ -1,0 +1,17 @@
+a	c	e	
+a	d	e	
+b	d	e	
+a	c	d	
+b	d	e	
+c	d	e	
+a	d	e	
+b	d	e	
+c	d	e	
+a	d	e	
+a	b	d	
+a  -> c,d,b,
+b  -> d,
+c  -> e,d,
+d  -> e,
+e  -> 
+Done!
