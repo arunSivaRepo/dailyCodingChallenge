@@ -34,6 +34,7 @@ T getWeightedRandom(const vector<T> &vec, const vector<float> &weights){
     for (auto &i: weights){
       tot += i;
       cumulative_weights.push_back(tot);
+      init = true;
     }
     cout << "Total = " << tot << "\n";
   }
